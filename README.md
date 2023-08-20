@@ -1,6 +1,8 @@
 # LangChain揭秘之文档QA项目实战
 
-课程地址：<https://study.163.com/course/viewCourse.htm?courseId=1213542817&providerId=400000000351011>
+视频教程：[LangChain揭秘之文档QA项目实战](https://study.163.com/course/viewCourse.htm?courseId=1213542817&providerId=400000000351011)
+
+官方博客：[万维刀客](https://www.w3cdoc.com/)
 
 ## 适用人群
 想学习Promp高级使用技巧，学习使用LangChain框架构建prompt工程的同学
