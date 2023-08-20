@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { useSearchParams } from 'ice';
+import { useSearchParams, defineDataLoader } from 'ice';
 import '@chatui/core/es/styles/index.less';
 // 引入组件
 import Chat, { Bubble, useMessages, Icon, FileCard, toast, Progress } from '@chatui/core';
@@ -275,3 +275,9 @@ export default function Index() {
     </div>
   );
 }
+
+// 页面的数据请求
+export const dataLoader = defineDataLoader(async () => {
+  // const data = await fetch('https://example.com/api/xxx');
+  // return data;
+});
