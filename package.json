@@ -1,0 +1,32 @@
+{
+  "name": "langchain-documentQA",
+  "version": "1.1.2",
+  "description": "LangChain揭秘之文档QA项目实战",
+  "dependencies": {
+    "@chatui/core": "^2.4.2",
+    "@ice/runtime": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@applint/spec": "^1.2.3",
+    "@ice/app": "^3.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/node": "^18.11.17",
+    "eslint": "^8.35.0",
+    "stylelint": "^15.2.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "ice start",
+    "build": "ice build",
+    "eslint": "eslint ./src --cache --ext .js,.jsx,.ts,.tsx",
+    "eslint:fix": "npm run eslint -- --fix",
+    "stylelint": "stylelint \"src/**/*.{css,scss,less}\" --cache",
+    "stylelint:fix": "npm run stylelint -- --fix"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

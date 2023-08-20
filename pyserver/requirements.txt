@@ -1,0 +1,10 @@
+fastapi
+pydantic
+uvicorn
+shutil
+pickle
+langchain
+numpy
+sentence_transformers
+pdfplumber
+faiss-cpu==1.7.0
